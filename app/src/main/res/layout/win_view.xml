@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    style="@style/AppTheme"
+    android:alpha="1"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="小样，你竟敢放走曹贼！！"
+        android:id="@+id/textView"
+        android:layout_weight="0.11"
+        android:textAlignment="center"
+        android:autoText="false"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff0000"
+        android:textSize="21dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="剁手"
+        android:id="@+id/cancel"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
